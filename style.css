@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+a{
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10em 10em 10em 20em;
+    width: 50%;
+    height: 50vh;
+}
+div{
+    padding: 2em;
+    width: 50%;
+    /*height: 50vh;*/
+    font-family: (Lexend Deca,Big Shoulders Display);
+    color: white;
+}
+h3{
+    margin: 20px;
+}
+p{
+    margin: 10px;
+}
+.left{
+    background-color: hsl(31, 77%, 52%);
+}
+.left button{
+    color: hsl(31, 77%, 52%);
+}
+.center{
+    background-color: hsl(184, 100%, 22%);
+}
+.center button{
+    color: hsl(184, 100%, 22%);
+}
+.right{
+    background-color: hsl(179, 100%, 13%);
+}
+.right button{
+    color: hsl(179, 100%, 13%);
+}
+button{
+    border: 1px;
+    border-radius: 20px;
+    background-color: white;
+    width: 8em;
+    height: 3em;
+    margin-top: 1em;
+}
